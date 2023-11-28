@@ -14,8 +14,14 @@
         </div>
         <button class="btn">Add transaction</button>
       </form>
+      <a href="https://github.com/DevKevvz/vue-expense-tracker" target="_blank" class="center">Project source code <br> powered by &COPY; DevKevs</a>
 </template>
 
+<style>
+  .center{
+    text-align: center;
+  }
+</style>
 <script setup>
 import { ref } from 'vue';
 import {useToast} from 'vue-toastification'
